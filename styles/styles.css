@@ -1,0 +1,710 @@
+    * {
+        padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        max-width: 1400px;
+        font-family:'montserrat',sans-serif;
+        background-image: linear-gradient(to right bottom,#c7c6c379, #42414185),url('../images/background-image.jpg');
+        background-size: cover;
+        background-position: center ;
+        height: 100vh;
+    }
+    .header{
+        width:100%;
+    }
+    .drop-down{
+        width: 100%;
+        float: left;
+        padding-bottom: 10px;
+        padding-top:0px;
+        position: -webkit-sticky;
+        position: sticky;
+        position: absolute;
+        background-color: black;
+        border: solid 1px black;
+        box-shadow: 2px 2px rgba(194, 173, 149, 0.568) ;
+      
+    }
+    .drop-down span {
+        top: auto; 
+        float: left;
+        margin-top: 20px;
+        font-size: 40px;
+        width: 19%;
+        text-align: center;
+        font-family: 'oswald',sans-serif;
+        position: -webkit-sticky;
+        position: sticky;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        color: rgb(194, 173, 149)
+    }
+    .section_1 span h3{
+         font-size: 80px;
+         padding: 50px 0 0 0;
+         margin: 100px 0 0 0;
+    }
+    .section_1 span h4{
+        font-size: 60px;
+        margin: 10px;
+    }
+    /* Styling for Homepage starts here */
+    .profile-details{
+         text-align: center;
+         width:60%;
+         float: left;
+         position: relative;
+         top: 170px;
+         left: 20px;
+    }
+    .profile-img{
+         text-align: center;
+         width: 39%;
+         float: left;
+         position:relative;
+         top: 158px;
+         right: -106px;
+    }
+    .profile-img img{
+          width: 680px;
+    }
+    .mystory-profile-img{
+        text-align: center;
+        width: 39%;
+        float: left;
+        position: relative;
+        top: 130px;
+        left:95px;
+   }
+   .mystory-profile-img img{
+         width:560px;
+        
+   }
+   /* Styling for My Story starts here */
+   .about-me{
+       padding: 20px;
+       font-family:'oswald',sans-serif;
+       font-size: 50px;
+       position: relative;
+       top: 177px;
+       left: 101px;
+   }
+   .about-me span{
+       padding-left: 30px;
+   }
+   p{
+    padding: 10px;
+    text-align: justify;
+}
+
+.aboutme-details{
+font-family:'oswald',sans-serif;
+font-size: 30px;
+padding: 20px;
+width: 40%;
+position: relative;
+top: 194px;
+    left: 153px;
+}
+
+.linkedin {
+    width: 20px;
+    position: relative;
+    top: -147px;
+    left: 336px;   
+    }
+    .linkedin-img img {
+        width: 10px;
+    }
+
+/* Styling for education starts here */
+.education {
+    font: black;
+    font-size: 25px;
+    letter-spacing: 5PX;
+    text-align: center;
+    float:left;
+    position: relative;
+    top: 95px;
+    left: 770px;
+
+}
+.concordia-image {
+filter: grayscale(0%);
+position: relative;
+top: 215px;
+left: 179px;
+width: 50px;
+animation-name: animationfrombottom;
+animation-duration: 1s;
+transition: 2000ms opacity, 1750ms transform, 1750ms -webkit-transform
+/* animation-timing-function: ease-in;  */
+}
+
+.concordia-text{
+    float: right;
+    position: relative;
+    top: 215px;
+    right: -14px;
+    font-family: 'oswald',sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding-top: 45px;
+    padding-bottom: 66px;
+    animation-name: animationfrombottom;
+    animation-duration: 1s
+/* animation-timing-function: ease-out; */
+}
+.concordia-list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 3px;
+}
+
+.nottingham-image {
+    filter: grayscale(0%);
+    position: relative;
+    top: 326px;
+    left: 513px;
+    width: 50px;
+    animation-name: animationfrombottom;
+animation-duration: 1s;
+/* animation-timing-function: ease-out; */
+    }
+    
+    .nottingham-text{
+        float: left;
+        position: relative;
+        top: 326px;
+        left: 514px;
+        font-family: 'oswald',sans-serif;
+        background-color: rgb(255, 255, 255);
+        padding-top: 99px;
+        padding-bottom: 81px;
+        padding-left: 42px;
+        padding-right: 12px;
+        animation-name: animationfrombottom;
+        animation-duration: 1s
+        /* animation-timing-function: ease-out; */
+    }
+    .nottingham-list {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    .liverpool-image {
+        filter: grayscale(0%);
+        position: relative;
+        top: 428px;
+        left: 520px;
+        width: 50px;
+        animation-name: animationfrombottom;
+        animation-duration: 1s;
+        /* animation-timing-function: ease-out; */
+        }
+        
+        .liverpool-text{
+            float: right;
+    position: relative;
+    top: 428px;
+    right: -13px;
+    font-family: 'oswald',sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding-top: 43px;
+    padding-bottom: 68px;
+    padding-right: 57px;
+    padding-left: 73px;
+    animation-name: animationfrombottom;
+    animation-duration: 1s;
+            /* animation-timing-function: ease-out; */
+        }
+        .liverpool-list {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+       .section_2 span h3{
+            font-size: 80px;
+            padding: 50px 0 0 0;
+            margin: 100px 0 0 0;
+       }
+       .section_2 span h4{
+           font-size: 60px;
+           margin: 10px;
+       }
+    .sap-image {
+        filter: grayscale(0%);
+        position: relative;
+        top: 523px;
+        left: 525px;
+        width: 50px;
+        animation-name: animationfrombottom;
+        animation-duration: 1s;
+        /* animation-timing-function: ease-out; */
+            }
+
+            .sap-text {
+                float: left;
+    position: relative;
+    top: 523px;
+    left: 525px;
+    font-family: 'oswald',sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding-top: 86px;
+    padding-bottom: 162px;
+    padding-right: 220px;
+    padding-left: 79px;
+    animation-name: animationfrombottom;
+    animation-duration: 1s;
+                /* animation-timing-function: ease-out; */
+            }
+
+            @keyframes animationfrombottom {
+                0% {opacity: 0;
+                    transform: translateY(0);
+                    transition: 2000ms opacity, 1750ms transform, 1750ms -webkit-transform
+                }
+                80% {
+
+                }
+                100% {
+                    opacity:1;
+                    color:black;
+                    transform: translate(0);
+                }
+            }
+/* Styling for Career starts here */
+            .career {
+                font: black;
+                font-size: 25px;
+                letter-spacing: 5PX;
+                text-align: center;
+                float:left;
+                position: relative;
+                top: 95px;
+    left: 730px;
+            
+            }
+
+            .loreal-image {
+                filter: grayscale(0%);
+                position: relative;
+                top: 265px;
+                left: -511px;
+                width: 50px;
+                }
+                
+                .loreal-text{
+                    float:right;
+    position:relative;
+    top: -132px;
+    right: 0px;
+    width: 70%;
+    font-family:'oswald',sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding-top: 0px;
+    padding-bottom: 0px;
+                }
+
+                .loreal-list {
+                    font-family: 'oswald',sans-serif;
+                    font-size: 20px;
+                    position: relative;
+                    left: 3px;
+                }
+                .loreal-list li{
+                    margin: 25px 0;
+                  }
+
+                  .iam-image {
+                    filter: grayscale(0%);
+                    position: relative;
+                    top: 420px;
+                    left: 31px;
+                    width: 50px;
+                    }
+                    
+                    .iam-text{
+                        float:right;
+        position:relative;
+        top: -67px;
+        right: 0px;
+        width: 70%;
+        font-family:'oswald',sans-serif;
+        background-color: rgb(255, 255, 255);
+        padding-top: 0px;
+        padding-bottom: 0px;
+                    }
+    
+                    .iam-list {
+                        font-family: 'oswald',sans-serif;
+                        font-size: 20px;
+                        position: relative;
+                        left: 3px;
+                    }
+                    .iam-list li{
+                        margin: 25px 0;
+                      }
+
+                      .ms-image {
+                        filter: grayscale(0%);
+                        position: relative;
+                        top: 502px;
+                        left: 32px;
+                        width: 50px;
+                        }
+                        
+                        .ms-text{
+                            float:right;
+            position:relative;
+            top: 63px;
+            right: 0px;
+            width: 70%;
+            font-family:'oswald',sans-serif;
+            background-color: rgb(255, 255, 255);
+            padding-top: 0px;
+            padding-bottom: 0px;
+                        }
+        
+                        .ms-list {
+                            font-family: 'oswald',sans-serif;
+                            font-size: 20px;
+                            position: relative;
+                            left: 3px;
+                        }
+                        .ms-list li{
+                            margin: 25px 0;
+                          }
+
+                          .db-image {
+                            filter: grayscale(0%);
+                            position: relative;
+                            top: 533px;
+                            left: 32px;
+                            width: 50px;
+                            }
+                            
+                            .db-text{
+                                float:right;
+                position:relative;
+                top: 195px;
+                right: 0px;
+                width: 70%;
+                font-family:'oswald',sans-serif;
+                background-color: rgb(255, 255, 255);
+                padding-top: 0px;
+                padding-bottom: 0px;
+                            }
+            
+                            .db-list {
+                                font-family: 'oswald',sans-serif;
+                                font-size: 20px;
+                                position: relative;
+                                left: 3px;
+                            }
+                            .db-list li{
+                                margin: 25px 0;
+                              }
+
+                              /* Styling for Contact me starts here */
+                              .contact {
+                                font: black;
+                                font-size: 20px;
+                                letter-spacing: 5PX;
+                                text-align: center;
+                                float:left;
+                                position: relative;
+                                top: 146px;
+                                left: 709px;
+                            
+                            }
+.linkedin-2 {width: 20px;
+    position: relative;
+    top: 258px;
+    left: 410px;  
+}
+.email {width: 20px;
+    position: relative;
+    top: 100px;
+    left: 185px; 
+}
+.email img{
+    position: relative;
+    top: 100px;
+    left: 185px; 
+}
+#email-text {
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 231px;
+    left: 974px;
+    
+}
+
+/* Styling for Outside Work starts here */
+.hobbies {
+    font: black;
+    font-size: 25px;
+    letter-spacing: 5PX;
+    text-align: center;
+    float:left;
+    position: relative;
+    top: 95px;
+left: 775px;
+
+}
+
+.sports-image {
+    filter: grayscale(0%);
+    position: relative;
+    top: 265px;
+    left: 0px;
+    width: 50px;
+    }
+    
+    .sports-text{
+        float: right;
+    position: relative;
+    top: 227px;
+    left: -786px;
+    font-family: 'oswald',sans-serif;
+    padding-right: 125px;
+    padding-left: 125px;
+    background-color: rgb(255, 255, 255);
+    }
+
+    .travelling-image {
+        filter: grayscale(0%);
+        position: relative;
+        top: -84px;
+        left: 732px;
+        width: 50px;
+        }
+        
+        .travelling-text{
+            float: right;
+            position: relative;
+            top: -119px;
+            left: -319px;
+            font-family: 'oswald',sans-serif;
+            padding-right: 100px;
+            padding-left: 100px;
+            background-color: rgb(255, 255, 255);
+        }
+        .cooking-image {
+            filter: grayscale(0%);
+    position: relative;
+    top: -428px;
+    left: 1212px;
+    width: 50px
+            }
+            
+            .cooking-text{
+                float: right;
+                position: relative;
+                top: -465px;
+                left: 160px;
+                font-family: 'oswald',sans-serif;
+                padding-right: 110px;
+                padding-left: 110px;
+                background-color: rgb(255, 255, 255);
+            }
+            
+    /* MEDIA QUERY STARTS HERE */
+
+@media screen and (max-width:720px) {
+body{
+    background-image: linear-gradient(to right bottom,#c7c6c300, #42414100),url('../images/background-image.jpg');
+    background-size: cover;
+    background-position: center
+}
+    .drop-down {
+        width: 160%;
+        font-size: 3px;
+    }
+    .drop-down span {
+        top: auto; 
+        float: left;
+        margin-top: 20px;
+        width: 19%;
+        font-family: 'oswald',sans-serif;
+    }
+    .profile-img {
+        display: none;
+    }
+    .profile-img img{
+        display: none;
+  }
+  a:hover {
+    color: rgb(194, 173, 149)
+}
+.linkedin {
+    width: 3px;
+    position: relative;
+    top: 238px;
+    left: 95px   
+    }
+    .linkedin-img img {
+        width: 10px;
+    }
+    .profile-details{
+        text-align: center;
+        width:60%;
+        float: left;
+        position: relative;
+        top: 170px;
+        left: 60px;
+    }
+
+    .mystory-profile-img{
+        display: none;
+    }
+        .aboutme-details{
+            font-family:'oswald',sans-serif;
+            font-size: 27px;
+            padding: 00px;
+            width: 40%;
+            position: relative;
+            top: 194px;
+                left: 7px;
+            }
+            .about-me{
+              text-align: center;
+            }
+            .education {
+                font: black;
+                font-size: 25px;
+                text-align: center; 
+                position: relative;
+                top: 133px;
+                left: 283px
+            }
+
+            .concordia-image {
+                display: none;
+            }     
+            .concordia-text {
+                float: right;
+                position: relative;
+                top: 215px;
+                right: -191px;
+                font-family: 'oswald',sans-serif;
+                background-color: rgb(255, 255, 255);
+                padding-top: 45px;
+                padding-bottom: 66px;
+            }
+            .nottingham-image {
+                display: none;     
+            }
+            .nottingham-text{
+                float: left;
+                position: relative;
+                top: 326px;
+                left: 195px;
+                font-family: 'oswald',sans-serif;
+                background-color: rgb(255, 255, 255);
+                padding-top: 99px;
+                padding-bottom: 81px;
+                padding-left: 42px;
+                padding-right: 12px
+            }
+            .liverpool-image {
+                display: none;     
+            }
+            .liverpool-text {
+                float: right;
+                position: relative;
+                top: 428px;
+                right: -198px;
+                font-family: 'oswald',sans-serif;
+                background-color: rgb(255, 255, 255);
+                padding-top: 43px;
+                padding-bottom: 68px;
+                padding-right: 57px;
+                padding-left: 73px;
+            }
+            .sap-image {
+                display: none;     
+            }
+            .sap-text {
+                float: left;
+                position: relative;
+                top: 523px;
+                left: 199px;
+                font-family: 'oswald',sans-serif;
+                background-color: rgb(255, 255, 255);
+                padding-top: 86px;
+                padding-bottom: 162px;
+                padding-right: 220px;
+                padding-left: 79px;
+            }
+            .loreal-image {
+               display: none;
+                }
+                .loreal-text {
+                    float: right;
+                    position: relative;
+                    top: 132px;
+                    right: 119px;
+                    width: 70%;
+                    font-family: 'oswald',sans-serif;
+                    background-color: rgb(255, 255, 255);
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                }
+
+                .iam-image {
+                    display: none;
+                     }
+                     .iam-text {
+                        float: right;
+                        position: relative;
+                        top: 157px;
+                        right: 119px;
+                        width: 70%;
+                        font-family: 'oswald',sans-serif;
+                        background-color: rgb(255, 255, 255);
+                        padding-top: 0px;
+                        padding-bottom: 0px
+                     }
+                     .ms-image {
+                        display: none;
+                         }
+                         .ms-text {
+                            float: right;
+                            position: relative;
+                            top: 189px;
+                            right: 119px;
+                            width: 70%;
+                            font-family: 'oswald',sans-serif;
+                            background-color: rgb(255, 255, 255);
+                            padding-top: 0px;
+                            padding-bottom: 0px
+                         }
+
+                         .db-image {
+                            display: none;
+                             }
+                             .db-text {
+                                float: right;
+                                position: relative;
+                                top: 217px;
+                                right:119px;
+                                width: 70%;
+                                font-family: 'oswald',sans-serif;
+                                background-color: rgb(255, 255, 255);
+                                padding-top: 0px;
+                                padding-bottom: 0px;}
+    
+
+}
